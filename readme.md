@@ -1,0 +1,1 @@
+An ecommerce sample website for MCSL-016 solved assignment june 2023. It is made for sample purpose
