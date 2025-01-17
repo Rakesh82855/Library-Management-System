@@ -1,0 +1,101 @@
+* {
+   margin: 0px;
+}
+h1 {
+   font-size:25pt;
+   font-family:cambria;
+   color:#FFFFFF;
+}
+h2 {
+   font-size:18pt;
+   font-family:Cambria;
+}
+h3 {
+   font-size:13pt;
+   font-family:Cambria;
+   color:#000000;
+   margin: 0 30px;
+}
+.padding {
+   padding-left: 30px;
+}
+.textcss {
+   font-size:14pt;
+   font-family:Cambria;
+}
+.headercss {
+   font-size:16pt;
+   font-family:Cambria;
+   font-weight: bold;
+   color: #660066;
+}
+.footer {
+   font-size:16pt;
+   font-family:Cambria;
+   font-weight: bold;
+   color:#FFFFFF;
+}
+.vertical-menu {
+   height: 510px;
+   width: 210px;
+   font-size: 16pt;
+   font-family: Cambria;
+   font-weight: bold;
+   background-color: #fcfc8e;
+}
+.vertical-menu a {
+   background-color: #fcfc8e;
+   color: black;
+   display: block;
+   padding: 12px;
+   text-decoration: none;
+   transition: all ease 1s;
+}
+.vertical-menu a:hover {
+   scale: 1.1;
+   background-color: #D4D4D4;
+}
+.vertical-menu a.active {
+   background-color: #c481fb;
+}
+input[type="text"] {
+   height: 40px;
+   font-size:14pt;
+   font-family:Cambria;
+}
+input[type="password"] {
+   height: 40px;
+   font-size:14pt;
+   font-family:Cambria;
+}
+input[type="submit"] {
+   height: 40px;
+   font-size:14pt;
+   font-family:Cambria;
+   font-weight: bold;
+   width:350;
+}
+table, th, td {
+   border-collapse:collapse;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+li {
+   float: left;
+}
+li {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 20px 16px;
+   text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover*/
+li a:hover {
+   background-color: #111;
+}
