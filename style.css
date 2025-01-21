@@ -7,12 +7,16 @@ html, body {
 }
 .header {
    width: 100%;
+   height: 95px;
    background-color: #0090FF;
 }
 h1 {
    font-size: 2.72vw;
    font-family:cambria;
    color:#FFFFFF;
+}
+.headerimg {
+   width: 200px;
 }
 /* .navbar {
    width: 100%;
@@ -113,13 +117,14 @@ li a:hover {
 @media screen and (max-width: 768px) {
    .header {
       width: 100%;
+      height: 7vh;
    }
    h1 {
-      font-size: 10vw;
+      font-size: 3.5vw;
    }
    .headerimg {
       width: 10vw;
-      height: 10vw;
+      height: 3vh;
    }
    .vertical-menu {
       display: none;
